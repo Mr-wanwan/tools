@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>ckeditor</title>
+    <script src="//cdn.ckeditor.com/4.4.6/standard/ckeditor.js"></script>
+  </head>
+
+  <body>
+    <<div>
+      <textarea placeholder="请输入内容" id="content" name="goods_description" class="ckeditor" required="" ></textarea>
+    </div>
+  </body>
+
+<script type="text/javascript">
+CKEDITOR.replace('content', {
+	filebrowserUploadUrl: '/ckupload/',
+});
+</script>
+
+</html>
