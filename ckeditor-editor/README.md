@@ -2,10 +2,6 @@ ckeditor----ckeditor富文本代码
 eg.html----html页面使用富文本
 upload.py----上传文件接口
 
-eg.html
-
-![1573022214111](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\1573022214111.png)
-
 upload.py	处理图片上传及存放地址
 
 ```
